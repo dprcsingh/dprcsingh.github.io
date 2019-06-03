@@ -1,0 +1,366 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:snow;
+    overflow-x: hidden;
+    font-family: 'Arvo', serif;
+    background:#010102;
+}
+nav,.fa-bars
+{
+    cursor: pointer;
+}
+.container
+{
+    margin: 0;
+    padding: 0;
+}
+.col
+{
+    /*float:left;*/
+}
+.desktop-bar
+{
+    width:120px;
+    height: 100vh;
+    position: fixed;   
+    border-right: 3px solid #E9F00A;
+}
+.landing-page,.me,.mywork
+{
+    margin-left: 123px;
+    width: 100%;
+    
+}
+
+.desktop-bar nav 
+{
+ width:100%;
+ margin-top:200px;
+ font-size:20px; 
+ text-align: center;
+ color: #E9F00A;
+}
+.nav-home,.nav-about,.nav-work,.nav-contact
+{
+    margin-top:60px;
+    position: relative;
+}
+.hidden
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0;
+    font-size:18px;
+}
+.hidden a
+{
+    color:yellow;
+    text-decoration: none;
+}
+.nav-home:hover .hidden,.nav-about:hover .hidden,.nav-work:hover .hidden,.nav-contact:hover .hidden
+{
+    text-transform: uppercase;
+    opacity:1;
+    transition:0.5s;
+    text-align: center;
+}
+.nav-home:hover .fa-home,.nav-about:hover .fa-male,.nav-work:hover .fa-briefcase,.nav-contact:hover .fa-mobile-alt
+{
+    opacity: 0;
+    color: yellow;
+    transition: 1s;
+}
+
+.landing-page
+{
+    height: 100vh;
+    background-image: url(images/business-computer-contemporary-669996.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+.landingContent
+{   
+     position: absolute;
+     right: 5%;
+     top:60%;
+     font-size: 1.5em;
+     line-height: 10px;
+}
+
+.button
+{
+    font-size: 1.5em;
+    position: absolute;
+    top:85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    background: linear-gradient(to right,#ffeb3d,#03a9f4,#6BFF33);
+    color:hsla(0,0%,100%,.9);;
+    border-radius:40px;
+    background-size: 400%;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    z-index: 1;   
+}
+.button::before
+{
+    content: '';
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    bottom: -5px;
+    right: -5px;
+    background: linear-gradient(to left,#ffeb3d,#03a9f4,#6BFF33,#FFD433);
+    border-radius: 40px;
+    background-size: 400%;
+    z-index: -1;
+    transition: 0.6s;
+    opacity: 0;   
+}
+.button:hover::before
+{
+    filter: blur(10px);
+    opacity: 1;
+}
+
+/* end */
+
+
+/* About section Starts */
+.me
+{
+    
+
+   /*  background: url(images/coding.jpg);*/
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     display: grid;
+    grid-template-columns: repeat(20,1fr);
+    background: black;
+    
+   
+}
+.profile
+{
+     grid-column: 1/8;
+    position: relative;
+}
+
+.profile-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 45%;
+    border: 5px outset #ffeb3d;
+    height: auto;
+    margin: 10px;
+    
+}
+
+.profile h3
+{
+    margin-top:4px;
+    font-size: 16px;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.about
+{
+   
+    grid-column: 8/21;
+    margin: 20px;
+    font-size: 16px;
+}
+
+/* All classes used in making about me */
+.method
+{
+  color:#5918df;
+}
+.braces
+{
+  color:white;
+}
+.dot,.comment
+{
+  color:#78707e;
+}
+.string
+{
+  color:#24e33a;
+}
+.this
+{
+  color:red;
+}
+.propname
+{
+  color:#eeff31;
+}
+
+/* End */
+
+/* End */
+
+/* Work Section Starts */
+
+.mywork::before
+{
+    background: url(images/contact-us.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index:-2;
+    opacity: 0.5;
+}
+
+.under-const
+{
+    margin: 100px;
+}
+/* End */
+
+
+nav ul
+{
+    list-style: none;
+    margin: 0%;
+    margin-top:8%;
+    padding: 0;
+    display: block;
+}
+nav ul li
+{
+     text-align: center;
+     padding: 1rem 0;
+   
+    border-bottom: 1px solid #E4DE10;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: azure;
+    opacity:0.8;
+    text-transform: uppercase;
+}
+li:hover
+{
+    background:#E4DE10 ;
+}
+li:hover a
+{
+    color: black;
+}
+
+.icons
+{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+.icons a
+{
+    color:whitesmoke;
+}
+.fab
+{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid yellow;
+    border-radius:40%;
+}
+.icon a:hover
+{
+   transform: scale(2);
+}
+.icons .fa-facebook-f
+{
+    color:blue;
+}
+.icons .fa-linkedin
+{
+    color:lightblue;
+}
+.icons .fa-instagram
+{
+    color:darkred
+}
+.icons .fa-github
+{
+    color:orangered;
+}
+.icons i:hover{
+    transform: scale(1.2);
+    color: yellowgreen;   
+}
+.section
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+   
+.yello
+{
+    color: #E4DE10;
+}
+.anim-text
+{
+    color: #E4DE10;
+}
+ .col-on-toggle
+    {
+        display: none;
+    }
+
+ /* Javascript Css Classes to make class dynamic */
+.after-click
+{
+    display:block;
+}
+.after-click1
+{
+    display: none;
+}
+
+.fa-bars
+{
+    margin-left:5px;
+}
+.col-fixed
+{
+    background:#E4DE10;
+    font-size:40px; 
+    color: black;
+}
+
+
+
+

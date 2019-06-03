@@ -1,0 +1,184 @@
+@media (max-width:700px)
+{
+    .desktop-bar
+    {
+        display: none;
+    }
+    .landing-page,.me,.mywork
+    {
+        margin-left: 0;
+    }
+    
+}
+@media (min-width:700) and (max-width:800)
+{
+    .about
+    {
+        font-size: 14px;
+    }
+    
+}
+
+@media (min-width:701px)
+{
+    .col-fixed,.col-on-toggle
+    {
+        display: none;
+    }
+    .landing-page
+    {
+        display: block;
+    }  
+}
+@media (max-width:499px) and (max-height:740px)
+{
+    .landingContent
+    {
+     top:65%;
+     font-size:1.15em;
+     line-height: 10px;
+    }
+    .button
+    {
+        width: 250px;
+        height: 50px;
+       line-height: 50px;
+        font-size:1.3em;
+    }
+    
+    nav ul li 
+    {
+        font-size: 16px;
+    }
+    
+ }
+@media (max-width:420px) and (min-height:731px)
+{
+    .landingContent
+{
+ font-size: 1.1em;
+ line-height: 10px;
+letter-spacing: 1px;
+}
+    .button
+    {
+        width: 250px;
+        height: 50px;
+       line-height: 50px;
+        font-size:1.3em;
+        
+        
+    }
+    .about
+    {
+        font-size: 16px;
+    }
+    nav ul li 
+    {
+        font-size: 16px;
+    }
+}
+@media (max-width:700px) and (min-width:570px)
+{
+.landingContent
+{
+ font-size: 1.4em;
+ line-height: 10px;
+letter-spacing: 1px;
+}
+    .button
+    {
+        width: 250px;
+        height: 50px;
+       line-height: 50px;
+        font-size:1.3em; 
+    }
+    
+    .about
+    {
+        font-size:15px;
+    }
+    nav ul li 
+    {
+        font-size: 18px;
+    }
+}
+@media (max-width:569px) and (min-width:470px)
+{
+    .landingContent
+{
+ font-size: 1.2em;
+letter-spacing: 1px;
+}
+    .button
+    {
+        width: 250px;
+        height: 50px;
+       line-height: 50px;
+        font-size:1.3em;
+        
+        
+    }
+    .about
+    {
+        font-size: 15px;
+    }
+    nav ul li 
+    {
+        font-size: 16px;
+    }
+}
+@media (max-width:470px) and (min-width:400)
+{
+.landingContent
+{
+ font-size: 1.1em;
+ letter-spacing: 1px;
+}
+    .button
+    {
+        width: 230px;
+        height: 50px;
+        line-height:50px;
+        font-size:1.2em; 
+    }
+    .about
+    {
+        font-size: 14px;
+        
+    }
+    nav ul li 
+    {
+        font-size: 16px;
+    }
+    .flip
+    {
+        height: 80vh;
+    }
+
+}
+@media (max-width:399px)
+{
+.landingContent
+{
+ font-size:1em;
+}
+    .button
+    {
+        width: 230px;
+        height: 50px;
+        line-height:50px;
+        font-size:1.2em;   
+    }
+    .about
+    {
+        font-size: 11px;
+        
+    }
+    nav ul li 
+    {
+        font-size: 16px;
+    }
+}
+    
+    
