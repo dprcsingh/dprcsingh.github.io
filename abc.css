@@ -17,10 +17,6 @@ nav,.fa-bars
     margin: 0;
     padding: 0;
 }
-.col
-{
-    /*float:left;*/
-}
 .desktop-bar
 {
     width:120px;
@@ -28,7 +24,7 @@ nav,.fa-bars
     position: fixed;   
     border-right: 3px solid #E9F00A;
 }
-.landing-page,.me,.mywork
+.landing-page,.me,.mywork,.contacts
 {
     margin-left: 123px;
     width: 100%;
@@ -360,6 +356,7 @@ li:hover a
     font-size:40px; 
     color: black;
 }
+
 
 
 
